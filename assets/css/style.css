@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+body {
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 2vh 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.cabecalho_titulo {
+    font-size: 24px;
+}
+
+.cabecalho_sessao {
+    display: flex;
+}
+
+.sessao {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: .5rem ;
+    margin: 0 1px;
+    border: 1px solid #000000 ;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns:  33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    padding: 50px 5vh;
+    width: 80%;
+    column-gap: 50px;
+}
+
+.apresentacao_principal {
+    grid-row: 1 / 1;
+    grid-column: 1 / 3;
+    font-size: 32px;
+}
+
+.apresentacao_descritiva {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    font-size: 18px;
+    height: 100px;
+}
+
+.apresentacao_fotografia {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    border-radius: 50%;
+    width: 300px;
+}
+
+.apresentacao_redes {
+    grid-row: 3 /4;
+    grid-column: 1/ 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes {
+    text-decoration: none;
+    color: black;
+}
+
+/*SOBRE_MIM*/
+
+.sobre_mim {
+    display: flex;
+    flex-direction: column;
+    background: rgb(176, 195, 224);
+    padding: 5% 10%;
+}
+
+.sobre_mim_titulo {
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+.sobre_mim_texto {
+    padding-right: 400px;
+    text-align: justify;
+}
+/*HABILIDADES*/
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.habilidades_skill, .habilidades_hobbies, .educacao_titulo, .experiencia_titulo, .contato_titulo{
+    padding: 30px;
+    font-size: 21px;
+}
+
+.skill {
+    display: flex;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.caixa {
+    background: rgb(149, 202, 209);
+    width: 176px;
+    height: 174px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img {
+    width: 45px;
+}
+
+/*FORMAÇÃO ACADÊMICA*/
+
+.educacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(176, 195, 224);
+}
+
+.educacao_cursos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+}
+
+.curso_caixa {
+    width: 250px;
+    height: 250px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.cursos > p {
+    font-size: 12px;
+    margin: .5rem 0;
+}
+
+.cursos > h4 {
+    font-size: 17px;
+    margin: .5rem 0;
+}
+
+/*PROJETOS*/
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.experiencia_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.card {
+    height: 300px;
+    width: 400px;
+    margin: 3rem 0 0;
+    background-image: url('../img/xavier.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card_text {
+    width: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+}
+
+.card_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card_wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card_wrapper h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.card_wrapper p {
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.card:hover > .card_wrapper::before {
+    opacity: 1;
+    width: 350px;
+    height: 250px;
+}
+
+.card:hover > .card_wrapper p {
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*CONATO*/  
+.contato {
+    display: flex;
+    align-items: center;
+    background: rgb(176, 195, 224);
+}
+
+.contato_img {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.contato_img > img {
+    width: 95%
+}
+
+.contato_geral {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;    
+}
+
+.contato_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato_name {
+    background: #ffffff;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 3px solid blue;
+}
+
+.contato_geral > p {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.contato_msg {
+    height: 20px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.assunto {
+    height: 45px;
+}
+
+.mensagem {
+    height: 120px;
+}
+
+.contato_btn {
+    background: rgb(52, 52, 219);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
