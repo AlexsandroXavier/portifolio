@@ -1,0 +1,38 @@
+.card__wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card__wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card__wrapper h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.card__wrapper p {
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #ffffff;
+}

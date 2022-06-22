@@ -1,0 +1,6 @@
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    background: rgb(176, 195, 224);
+    padding: 5% 10%;
+}

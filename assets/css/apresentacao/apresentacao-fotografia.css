@@ -1,0 +1,6 @@
+.apresentacao__fotografia {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    border-radius: 50%;
+    width: 300px;
+}
