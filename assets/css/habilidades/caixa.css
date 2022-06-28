@@ -1,8 +1,9 @@
 .caixa {
-    background: rgb(149, 202, 209);
-    width: 176px;
-    height: 174px;
-    margin: 0 5px;
+    background: var(--cor02);
+    color: var(--cor01);
+    width: 11rem;
+    height: 11rem;
+    margin: 0 .31rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

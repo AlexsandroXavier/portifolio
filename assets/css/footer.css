@@ -4,5 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 50px;
+    height: 3.2rem;
+    color: var(--cor02);
 }

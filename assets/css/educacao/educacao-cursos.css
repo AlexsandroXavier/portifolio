@@ -2,4 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 90%;
+    margin-bottom: 1.9rem;
+    flex-wrap: wrap;
 }

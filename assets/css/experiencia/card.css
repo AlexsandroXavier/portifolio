@@ -2,25 +2,37 @@
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url('../../img/xavier.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.5);
-    color: #000000;
     cursor: pointer;
-    transition: 0.3s;
-}.card:hover > .card__wrapper::before {
+    transition: 0.5s;
+}
+
+.card1{
+    background-image: url('../../img/encripitador.png');
+
+}
+
+.card2 {
+    background-image: url('../../img/jogodaforca.png');
+}
+
+.card3 {
+    background-image: url('../../img/barbearia.png');
+}
+
+.card:hover > .card__wrapper::before {
     opacity: 1;
-    width: 350px;
-    height: 250px;
+    width: 21.9rem;
+    height: 15.6rem;
 }
 
 .card:hover > .card__wrapper p {
-    font-size: 14px;
+    font-size: .9rem;
     opacity: 1;
     visibility: visible;
 }

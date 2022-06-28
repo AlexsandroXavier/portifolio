@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+:root {
+    --cor01: #130303;
+    --cor02: #F7F4F3;
+    --cor03: #2D080A;
+    --cor04: #7C3626;
+
+    --Manope: 'manrope', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap');
 body {
-    font-family: 'Spline Sans Mono', monospace;
+    font-family: 'Manrope', sans-serif;
+    background: var(--cor01);
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--cor02);
 }
 
 input:focus {

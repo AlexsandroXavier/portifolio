@@ -1,4 +1,15 @@
 .sobreMim__texto {
-    padding-right: 400px;
-    text-align: justify;
+    text-align:left ;
+}
+
+@media screen and (min-width: 375px) {
+    .sobreMim__texto {
+        padding-right:auto; 
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .sobreMim__texto {
+        padding-right:25rem; 
+    }
 }

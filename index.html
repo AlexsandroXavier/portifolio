@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="./assets/css/habilidades/habilidade-skill.css">
     <link rel="stylesheet" href="./assets/css/habilidades/habilidade-hobbie.css">
     <link rel="stylesheet" href="./assets/css/habilidades/caixa.css">
+    <link rel="stylesheet" href="./assets/css/habilidades/caixa-name.css">
     <link rel="stylesheet" href="./assets/css/habilidades/img.css">
     <link rel="stylesheet" href="./assets/css/sobre-mim/sobre-mim.css">
     <link rel="stylesheet" href="./assets/css/sobre-mim/sobre-mim-titulo.css">
@@ -52,88 +53,93 @@
 <body>
     <header>
         <div class="cabecalho">
-            <H1 class="cabecalho__titulo">Alexsandro Xavier</H1>
+            <H1><a class="cabecalho__titulo" href="#home"><img src="./assets/img/vector.png" alt=""> Alexsandro Xavier</a></H1>
             <ul class="cabecalho__nav">
-                <li><a href="#" class="cabecalho__nav-sessao">Sobre mim</a></li>
-                <li><a href="#" class="cabecalho__nav-sessao">Skill</a></li>
-                <li><a href="#" class="cabecalho__nav-sessao">Hobbies</a></li>
-                <li><a href="#" class="cabecalho__nav-sessao">Formação</a></li>
-                <li><a href="#" class="cabecalho__nav-sessao">Projetos</a></li>
-                <li><a href="#" class="cabecalho__nav-sessao">Contato</a></li>
+                <li><a href="#sobremim" class="cabecalho__nav-sessao">Sobre mim</a></li>
+                <li><a href="#skill" class="cabecalho__nav-sessao">Skill</a></li>
+                <li><a href="#hobbies" class="cabecalho__nav-sessao">Hobbies</a></li>
+                <li><a href="#formacao" class="cabecalho__nav-sessao">Formação</a></li>
+                <li><a href="#projetos" class="cabecalho__nav-sessao">Projetos</a></li>
+                <li><a href="#contato" class="cabecalho__nav-sessao">Contato</a></li>
+                <li><a href="#" class="cabecalho__nav-sessao email">eng.alexavier@gmail.com</a></li>
             </ul>
         </div>
 
-        <div class="apresentacao">
-            <h2 class="apresentacao__principal">Olá, Meu nome é Alexsandro Xavier e sou um desenvolvedor Front-end Developer</h2>
-            <p class="apresentacao__descritiva">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, officia eos velit suscipit fuga voluptatem, maiores ratione optio quidem odit dolorem expedita doloremque sequi veritatis id corrupti ipsum assumenda fugiat?</p>
-            <img class="apresentacao__fotografia" src="./assets/img/xavier.jpg" alt="Minha Fotografia">
+        <div class="apresentacao" id="home">
+            <img class="apresentacao__fotografia" src="./assets/img/xavier.png" alt="Minha Fotografia">
+            <h2 class="apresentacao__principal">Olá, meu nome é Alexsandro Xavier e sou um Desenvolvedor Web</h2>
+            <p class="apresentacao__descritiva">Bacharel em Engenharia Elétrica e atualmente Dev em formação no projeto Oracle ONE na Alura.</p>
             <ul class="apresentacao__nav">
-                <li><a class="apresentacao__nav-redes" href="#">Github</a></li>
-                <li><a class="apresentacao__nav-redes" href="#">Linkedin</a></li>
-                <li><a class="apresentacao__nav-redes" href="#">Instagram</a></li>
-                <li><a class="apresentacao__nav-redes" href="#">Curriculo</a></li>
+                <li><a class="apresentacao__nav-redes" href="https://github.com/AlexsandroXavier" target="_blank">Github <img src="./assets/img/arrow.png" alt=""></a></li>
+                <li><a class="apresentacao__nav-redes" href="https://www.linkedin.com/in/engalexsandroxavier/" target="_blank">Linkedin <img src="./assets/img/arrow.png" alt=""></a></li>
+                <li><a class="apresentacao__nav-redes" href="https://www.instagram.com/allexavier93/" target="_blank">Instagram <img src="./assets/img/arrow.png" alt=""></a></li>
+                <li><a class="apresentacao__nav-redes" href="./curriculo.pdf" target="_blank">Curriculo <img src="./assets/img/arrow.png" alt=""></a></li>
             </ul>
         </div>
 
     </header>
     <main>
-        <section class="sobreMim">
+        <section class="sobreMim" id="sobremim">
             <h3 class="sobreMim__titulo">Sobre mim</h3>
             <div class="sobreMim__texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, distinctio consequuntur! Minus, architecto voluptatum temporibus sed sequi culpa? Eum natus aperiam ullam dolore voluptatibus. Quo fuga magni quos accusantium expedita.</p>
+                <p>Iniciei meus estudos em programação em agosto de 2021, com um curso que me foi sugerido pelos algoritimos do Instagram.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt nemo doloribus aliquid veritatis voluptates eveniet assumenda tempora libero, atque commodi, et accusantium quaerat aliquam quae adipisci voluptate accusamus ipsam!</p>
+                <p> Antes disso eu tive uma breve introdução a lógica de programação durante
+                faculdade com a linguagem C++, para programar Arduino.</p>
+                <br>
+                <p>Hoje conhecendo um pouco mais sobre o vasto mundo da programação, tenho o interesse em me desenvolver como um programador Full-stak.    
+                </p>
             </div>
         </section>
         <section class="habilidades">
-            <h3 class="skill__titulo">Skills</h3>
+            <h3 class="skill__titulo" id="skill">Skills</h3>
             <div class="habilidade__skill">
                 <div class="caixa">
-                    <img class="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-                    HTML 5
+                    <img class="img" src="assets/img/html5.png" />
+                    <p class="caixa__name">HTML 5</p> 
                 </div>
                 <div class="caixa">
-                    <img class="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-                    CSS 3
+                    <img class="img" src="assets/img/css3.png" />
+                    <p class="caixa__name">CSS 3</p> 
                 </div>
                 <div class="caixa"> 
-                    <img class="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
-                    JavaScript
+                    <img class="img" src="assets/img/javascripit.png"/>
+                    <p class="caixa__name">Javascripit</p> 
                 </div>
                 <div class="caixa">         
-                    <img class="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
-                    Trello
+                    <img class="img" src="assets/img/trellologo.png" />
+                    <p class="caixa__name">Trello</p> 
                 </div>
                 <div class="caixa">
-                    <img class="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />        
-                    Git
+                    <img class="img" src="assets/img/gitlogo.png" />        
+                    <p class="caixa__name">Git</p> 
                 </div>
             </div>
-            <h3 class="hoobies__titulo">Hobbies</h3>
+            <h3 class="hoobies__titulo" id="hobbies">Hobbies</h3>
             <div class="habilidade__hobbies">
                 <div class="caixa">
-                    <img class="img" src="./assets/img/filmes.png" alt="">
-                    Assistir Filmes
+                    <img class="img" src="./assets/img/tv.png" alt="">
+                    <p class="caixa__name">Assistir TV</p> 
                 </div>
                 <div class="caixa">
-                    <img class="img" src="./assets/img/musica.png" alt="">
-                    Ouvir Musica
+                    <img class="img" src="./assets/img/fone.png" alt="">
+                    <p class="caixa__name">Ouvir música</p> 
                 </div>
                 <div class="caixa">
                     <img class="img" src="./assets/img/game.png" alt="">
-                    Jogar Games
+                    <p class="caixa__name">Jogar games</p> 
                 </div>
                 <div class="caixa">
                     <img  class="img" src="./assets/img/basquete.png" alt="">
-                    Jogar Basquetebol
+                    <p class="caixa__name">Jogar basquete</p> 
                 </div>
                 <div class="caixa">
-                    <img  class="img" src="./assets/img/caminhar.png" alt="">
-                    Fazer Exercicios
+                    <img  class="img" src="./assets/img/exercicios.png" alt="">
+                    <p class="caixa__name">Fazer exercicio</p> 
                 </div>
             </div>
         </section>
-        <section class="educacao">
+        <section class="educacao" id="formacao">
             <h3 class="educacao__titulo">Formação acadêmica</h3>
             <div class="educacao__cursos">
                 <div class="cursos">
@@ -152,14 +158,16 @@
                 </div>
             </div>
         </section>
-        <section class="experiencia">
+        <section class="experiencia" id="projetos">
             <h3 class="experiencia__titulo">Projetos</h3>
             <div class="experiencia__card">
                 <div class="experiencia__card_text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus esse inventore adipisci. Dolorem consequatur minus adipisci placeat mollitia. Vel, dolorum incidunt! Sit quaerat amet, voluptatum veritatis accusamus culpa labore dignissimos!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores laborum est aliquid, doloribus exercitationem temporibus perferendis fugiat repudiandae incidunt, quis dolor earum excepturi ratione iure. Ad ullam fugiat magnam dolore.  
+                    Nesse projeto trabalhei em uma aplicação que criptografa textos, assim podendo
+                    trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+                    Você pode conferir detalhes desse projeto no seu <a href="https://github.com/AlexsandroXavier/encripitador" target="_blank">repositorio</a>
+                    ou na sua <a href="https://alexsandroxavier.github.io/encripitador/" target="_blank">page</a>!
                 </div>
-                <div class="card">
+                <div class="card card1">
                     <div class="card__wrapper">
                         <h2>Decodificador</h2>
                         <p>Veja meus Projetos</p>
@@ -167,23 +175,28 @@
                 </div>
             </div>
             <div class="experiencia__card">
-                <div class="card">
+                <div class="card card2">
                     <div class="card__wrapper">
                         <h2>Jogo da Forca</h2>
                         <p>Acompanhe a minha carreira</p>
                     </div>
                 </div>
                 <div class="experiencia__card_text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus esse inventore adipisci. Dolorem consequatur minus adipisci placeat mollitia. Vel, dolorum incidunt! Sit quaerat amet, voluptatum veritatis accusamus culpa labore dignissimos!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores laborum est aliquid, doloribus exercitationem temporibus perferendis fugiat repudiandae incidunt, quis dolor earum excepturi ratione iure. Ad ullam fugiat magnam dolore.  
+                    Aqui trabalhei naquele joguinho que jogavamos muito na infancia, o famoso jogo da forca,
+                    nele trabalhei bastante meu conhecimento básico no Javascripit. 
+                    Você pode conferir detalhes desse projeto no seu <a href="https://github.com/AlexsandroXavier/jogodaforca" target="_blank">repositorio</a>
+                    ou na sua <a href="https://alexsandroxavier.github.io/jogodaforca/" target="_blank">page</a>!
                 </div>
             </div>
             <div class="experiencia__card">
                 <div class="experiencia__card_text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus esse inventore adipisci. Dolorem consequatur minus adipisci placeat mollitia. Vel, dolorum incidunt! Sit quaerat amet, voluptatum veritatis accusamus culpa labore dignissimos!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores laborum est aliquid, doloribus exercitationem temporibus perferendis fugiat repudiandae incidunt, quis dolor earum excepturi ratione iure. Ad ullam fugiat magnam dolore.  
+                    Esse projetos desenvolvi durantes as aulas do curso básico de HTML & CSS,
+                    gostei bastante do seu resultado e resolvi adicioná lo ao meu portifólio, pois tenho interesse
+                    em desenvolver e ir aplicando os meus conhecimento adiquirido ao decorrer do meu desenvolvimento.
+                    Você pode conferir mais detalhes desse projeto em seu <a href="https://github.com/AlexsandroXavier/barbeariaalura" target="_blank">repositorio</a>
+                    ou na sua <a href="https://alexsandroxavier.github.io/barbeariaalura/" target="_blank">page</a>!
                 </div>
-                <div class="card">
+                <div class="card card3">
                     <div class="card__wrapper">
                         <h2>Barbearia Alura</h2>
                         <p>Veja meus Projetos</p>
@@ -191,9 +204,9 @@
                 </div>
             </div>
         </section>
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="contato__img">
-                <img src="./assets/img/email.jpg" alt="">
+                <img src="./assets/img/email.png" alt="">
             </div>
             <div class="contato__geral">
                 <h3 class="contato__titulo">Contato</h3>

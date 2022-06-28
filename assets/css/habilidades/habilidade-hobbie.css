@@ -1,3 +1,5 @@
 .habilidade__hobbies {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

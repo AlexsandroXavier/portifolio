@@ -1,4 +1,9 @@
 .apresentacao__nav-redes {
+    color: var(--cor02);
     text-decoration: none;
-    color: black;
+    padding: 0 .5rem;
+}
+
+.apresentacao__nav-redes:hover {
+    border-bottom: 0.1rem solid var(--cor02);
 }

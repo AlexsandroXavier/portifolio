@@ -1,5 +1,16 @@
 .contato {
     display: flex;
     align-items: center;
-    background: rgb(176, 195, 224);
+    background: var(--cor02);
+}
+
+
+@media screen and (max-width: 768px) {
+    .contato__img{
+        display: none;
+    }
+
+    .contato {
+        justify-content: center;
+    }
 }

@@ -2,7 +2,20 @@
     display: grid;
     grid-template-columns:  33.33% 33.33% 33.33%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    padding: 50px 5vh;
+    padding: 4rem 5vh;
     width: 80%;
     column-gap: 50px;
+}
+
+@media screen and (max-width: 375px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+    }
 }

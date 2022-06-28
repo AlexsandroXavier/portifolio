@@ -1,14 +1,13 @@
 .cabecalho__nav-sessao {
     text-decoration: none;
-    font-size: 15px;
-    color: black;
+    font-size: 1rem;
+    color: var(--cor02);
     padding: .5rem ;
     margin: 0 1px;
-    border: 1px solid #000000 ;
-    transition: .3s;
+    transition: .4s;
 }
 
 .cabecalho__nav-sessao:hover {
-    background: rgb(176, 195, 224);
-    color: #ffffff;
+    background: var(--cor02);
+    color: var(--cor01);
 }

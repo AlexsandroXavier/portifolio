@@ -2,5 +2,6 @@
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: rgb(109, 109, 109);
+    color: var(--cor02);
+    text-align: center;
 }

@@ -1,7 +1,29 @@
 .cabecalho {
-    padding: 2vh 5vh;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
     align-items: center;
+    display: flex;
+    background: var(--cor01);
+    justify-content: space-between;
+    padding: 1rem 10%;
+    position: fixed;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__nav-sessao {
+        display: none;
+    }
+    .email {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .email {
+        display: none;
+    }
+
+    .cabecalho {
+        padding: 1rem 2%;
+        width: 100%;
+    }
 }

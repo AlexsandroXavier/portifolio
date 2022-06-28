@@ -4,3 +4,13 @@
     justify-content: space-evenly;
     width: 90%;
 }
+
+@media screen and (max-width:768px) {
+    .experiencia__card {
+        flex-direction: column;
+    }
+    .experiencia__card:nth-child(1), .experiencia__card:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+}

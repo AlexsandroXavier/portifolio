@@ -1,7 +1,7 @@
 .curso__caixa {
-    width: 250px;
-    height: 250px;
-    background: white;
+    width: 15.6rem;
+    height: 15.6rem;
     display: flex;
     align-items: center;
+    
 }

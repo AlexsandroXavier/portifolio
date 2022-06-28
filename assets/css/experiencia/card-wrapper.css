@@ -13,18 +13,17 @@
     height: 100px;
     width: 100px;
     display: block;
-    border: 1px solid #ffffff;
+    border: 2px solid var(--cor02);
     opacity: 0;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .card__wrapper h2 {
-    font-size: 36px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin: 0;
-    transition: 0.3s;
-    color: #ffffff;
+    transition: 0.4s;
+    color: var(--cor02);
 }
 
 .card__wrapper p {
@@ -33,6 +32,7 @@
     opacity: 0;
     font-weight: bold;
     text-transform: uppercase;
-    transition: 0.3s;
-    color: #ffffff;
+    transition: 0.4s;
+    padding-top: .5rem;
+    color: var(--cor02);
 }

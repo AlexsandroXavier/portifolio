@@ -1,6 +1,13 @@
 .sobreMim {
     display: flex;
     flex-direction: column;
-    background: rgb(176, 195, 224);
+    background: var(--cor02);
     padding: 5% 10%;
+    color: var(--cor01);
+}
+
+@media screen and (min-width: 375px) {
+    .sobreMim {
+        padding: 5%;
+    }
 }
