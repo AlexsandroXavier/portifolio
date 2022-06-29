@@ -13,4 +13,11 @@
     .contato {
         justify-content: center;
     }
+
+    .contato__p {
+        display: none;
+    }
+    .contato__p1{
+        padding-bottom: 1rem;
+    }
 }

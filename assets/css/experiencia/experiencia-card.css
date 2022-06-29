@@ -12,5 +12,15 @@
     .experiencia__card:nth-child(1), .experiencia__card:nth-child(3) {
         flex-direction: column-reverse;
     }
+    .experiencia__card_text {
+        margin: 4rem 0 0 0;
+        width: 75%;
+    }
+}
 
+@media screen and (min-width:768px) {
+    .experiencia__card_text {
+        width: 40%;
+    }
+    
 }
