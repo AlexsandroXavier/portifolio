@@ -1,0 +1,10 @@
+.top__nav_item {
+    padding: 0 .5rem;
+    text-decoration: none;
+    color: var(--cor04);
+    margin: 0 .5rem;
+}
+
+.top__nav_item:hover {
+    border-bottom: 2px solid var(--cor04);
+}

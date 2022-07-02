@@ -1,0 +1,21 @@
+.contato__texto {
+    width: 50%;
+}
+
+.contato__texto_principal {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contato__texto_secundario {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    width: 90%;
+}
+
+.contato__texto_email {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: var(--cor01);
+}

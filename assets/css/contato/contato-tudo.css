@@ -1,0 +1,21 @@
+.contato__tudo {
+    display: flex;
+    align-items:flex-start;
+    width: 90vw;
+}
+
+@media screen and (max-width: 700px) {
+    .contato__tudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato__texto {
+        width: 95%;
+        padding-bottom: 2rem;
+    }
+
+    .contato__cx {
+        width: 100%;
+    }
+}

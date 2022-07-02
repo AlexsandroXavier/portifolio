@@ -1,29 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 :root {
-    --cor01: #130303;
-    --cor02: #F7F4F3;
-    --cor03: #2D080A;
-    --cor04: #7C3626;
+    --cor01: #022B3A;
+    --cor02: #1F7A8C;
+    --cor03: #BFDBF7;
+    --cor04: #E1E5F2;
+    --cor05: #FFFFFF;
 
-    --Manope: 'manrope', sans-serif;
+    --roboto:  'Roboto', sans-serif;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap');
 body {
-    font-family: 'Manrope', sans-serif;
-    background: var(--cor01);
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--cor02);
-}
-
-input:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    border-bottom: 3px solid blue;
+    font-family: var(--roboto);
+    background: var(--cor04);
+    color: var(--cor01);
 }

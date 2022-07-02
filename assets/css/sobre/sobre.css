@@ -1,0 +1,30 @@
+.sobre {
+    display: flex;
+    padding: 5rem 5%;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--cor01);
+    color: var(--cor04);
+}
+
+@media screen and (max-width: 500px) {
+    .sobre {
+        flex-direction: column-reverse;
+    }
+    .sobre__redes {
+        flex-direction: row;
+        padding-top: 1rem;
+        width: 90vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sobre__principal_skill {
+        width: 90vw;
+    }
+
+    .sobre__principal {
+        align-items: center;
+        text-align: center;
+    }
+}

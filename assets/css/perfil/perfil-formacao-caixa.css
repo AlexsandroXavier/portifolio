@@ -1,0 +1,21 @@
+.perfil__formacao_caixa {
+    padding: 1rem;
+    transition: .4s ease-in-out;
+}
+
+.perfil__formacao_caixa:hover {
+    box-shadow: 0 .25rem .5rem 0 var(--cor01), 0 .37rem 1.25rem 0 var(--cor01);
+}
+
+.perfil__formacao_img {
+    width: 15rem;
+}
+
+.perfil__formacao_curso {
+    padding: .5rem 0 0 0;
+    font-size: 1.3rem;
+}
+
+.perfil__formacao_inst {
+    padding: .5rem 0 0 0;
+}

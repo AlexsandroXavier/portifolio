@@ -1,0 +1,16 @@
+.perfil__descricao-cx {
+    text-align: justify;
+}
+
+.perfil__descricao_texto {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.one {
+    font-weight: bold;
+}
+
+.perfil__descricao_assinatura {
+    width: 15rem;
+}

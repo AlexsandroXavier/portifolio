@@ -1,8 +1,0 @@
-.skill__titulo, .hoobies__titulo, .educacao__titulo, .experiencia__titulo, .contato__titulo{
-    padding: 2rem;
-    font-size: 1.31rem;
-}
-
-.experiencia__titulo {
-    color: var(--cor02);
-}

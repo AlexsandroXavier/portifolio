@@ -1,0 +1,10 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    background: var(--cor01);
+    color: var(--cor04);
+    position: fixed;
+    width: 90%;
+    align-items: center;
+}

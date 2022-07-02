@@ -1,0 +1,6 @@
+.projetos__container {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    flex-wrap: wrap;
+}

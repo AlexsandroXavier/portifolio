@@ -1,0 +1,41 @@
+.projetos__card {
+    width: 25rem;
+    margin: 2rem;
+    background: var(--cor01);
+    color: var(--cor04);
+}
+
+.projetos__card_img {
+    width: 25rem;
+}
+
+.projetos__card_card {
+    padding: 1rem;
+}
+
+.projetos__card_icons {
+    width: 2.5rem;
+    background: var(--cor04);
+    border-radius: 50%;
+    padding: .15rem;
+    transition: .3s;
+}
+
+.projetos__card_icons:hover {
+    background: var(--cor02);
+}
+
+.projetos__card_nome {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.projetos__card_descricao {
+    padding-bottom: 1rem;
+}
+
+.projetos__card_icons_cx {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}

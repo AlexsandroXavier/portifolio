@@ -1,0 +1,31 @@
+.contato__cx {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contato__msg {
+    margin: 0 .5rem .5rem;
+    height: 2rem;
+}
+
+.mensagem{
+    height: 6rem;
+}
+
+.contato__btn {
+    background-color: var(--cor01) ;
+    color: var(--cor04);
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem .5rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: .5rem;
+    width: 15rem;
+    transition: .3s ease-in-out;
+}
+
+.contato__btn:hover {
+    background-color: var(--cor02);
+}
